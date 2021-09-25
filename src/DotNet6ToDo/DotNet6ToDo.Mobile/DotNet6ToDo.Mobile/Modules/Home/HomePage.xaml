@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+    x:Class="DotNet6ToDo.Mobile.Modules.Home.HomePage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:DotNet6ToDo.Mobile.Modules.Home"
+    xmlns:vm="clr-namespace:DotNet6ToDo.Core.Modules.Home;assembly=DotNet6ToDo.Core"
+    x:DataType="vm:HomePageViewModel"
+    BackgroundColor="White"
+    Title="{Binding Title}">
+
+    <ContentPage.Content>
+		<StackLayout BackgroundColor="Orange">
+            <Label Text="{Binding Title}" TextColor="Black"/>
+
+            <Button Text="Nav" Command="{Binding NavigationTest}"/>
+        </StackLayout>
+	</ContentPage.Content>
+</ContentPage>

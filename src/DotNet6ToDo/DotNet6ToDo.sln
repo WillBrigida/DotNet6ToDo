@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31717.71
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet6ToDo.Core", "DotNet6ToDo.Core\DotNet6ToDo.Core.csproj", "{EB5A68A4-056A-421F-B46B-0C40B6E35E2D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNet6ToDo.Core", "DotNet6ToDo.Core\DotNet6ToDo.Core.csproj", "{EB5A68A4-056A-421F-B46B-0C40B6E35E2D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet6ToDo.Mobile", "DotNet6ToDo.Mobile\DotNet6ToDo.Mobile\DotNet6ToDo.Mobile.csproj", "{E3B61481-00E7-431C-AAEB-793530F678D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNet6ToDo.Mobile", "DotNet6ToDo.Mobile\DotNet6ToDo.Mobile\DotNet6ToDo.Mobile.csproj", "{E3B61481-00E7-431C-AAEB-793530F678D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet6ToDo.Web", "DotNet6ToDo.Web\DotNet6ToDo.Web.csproj", "{5BB2CC20-778E-4962-AC17-D88382B18A5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNet6ToDo.Web", "DotNet6ToDo.Web\DotNet6ToDo.Web.csproj", "{5BB2CC20-778E-4962-AC17-D88382B18A5A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

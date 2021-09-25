@@ -18,7 +18,7 @@ namespace DotNet6ToDo.Mobile
             count++;
             CounterLabel.Text = $"Current count: {count}";
 
-            SemanticScreenReader.Announce(CounterLabel.Text);
+            SemanticScreenReader.Announce(CounterLabel?.Text);
         }
     }
 }

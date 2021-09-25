@@ -1,17 +1,16 @@
-﻿using Microsoft.Maui;
+﻿using DotNet6ToDo.Mobile.Modules.Home;
 using Microsoft.Maui.Controls;
-using Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific;
 using Application = Microsoft.Maui.Controls.Application;
 
 namespace DotNet6ToDo.Mobile
 {
     public partial class App : Application
     {
-        public App()
+        public App(HomePage homepage)
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(homepage);
         }
     }
 }
